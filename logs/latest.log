@@ -1,28 +1,147 @@
-[12:23:55] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
-[12:23:55] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
-[12:23:56] [main/INFO]: Loading 3 mods:
+[12:26:37] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
+[12:26:37] [main/INFO]: Loading 41 mods:
+	- fabric-api 0.84.0+1.20.1
+	   |-- fabric-api-base 0.4.29+b04edc7a77
+	   |-- fabric-api-lookup-api-v1 1.6.34+4d8536c977
+	   |-- fabric-biome-api-v1 13.0.10+b3afc78b77
+	   |-- fabric-block-api-v1 1.0.9+e022e5d177
+	   |-- fabric-blockrenderlayer-v1 1.1.39+b3afc78b77
+	   |-- fabric-client-tags-api-v1 1.0.20+b3afc78b77
+	   |-- fabric-command-api-v1 1.2.32+f71b366f77
+	   |-- fabric-command-api-v2 2.2.11+b3afc78b77
+	   |-- fabric-commands-v0 0.2.49+df3654b377
+	   |-- fabric-containers-v0 0.1.61+df3654b377
+	   |-- fabric-content-registries-v0 4.0.7+b3afc78b77
+	   |-- fabric-convention-tags-v1 1.5.3+b3afc78b77
+	   |-- fabric-crash-report-info-v1 0.2.18+aeb40ebe77
+	   |-- fabric-data-generation-api-v1 12.1.11+b3afc78b77
+	   |-- fabric-dimensions-v1 2.1.51+b3afc78b77
+	   |-- fabric-entity-events-v1 1.5.21+b3afc78b77
+	   |-- fabric-events-interaction-v0 0.6.0+b3afc78b77
+	   |-- fabric-events-lifecycle-v0 0.2.61+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.38+b04edc7a77
+	   |-- fabric-item-api-v1 2.1.26+b3afc78b77
+	   |-- fabric-item-group-api-v1 4.0.7+b3afc78b77
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da77
+	   |-- fabric-keybindings-v0 0.2.34+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.20+b3afc78b77
+	   |-- fabric-loot-api-v2 1.1.37+b3afc78b77
+	   |-- fabric-loot-tables-v1 1.1.41+9e7660c677
+	   |-- fabric-message-api-v1 5.1.6+b3afc78b77
+	   |-- fabric-mining-level-api-v1 2.1.47+b3afc78b77
+	   |-- fabric-models-v0 0.3.35+b3afc78b77
+	   |-- fabric-networking-api-v1 1.3.8+b3afc78b77
+	   |-- fabric-networking-v0 0.3.48+df3654b377
+	   |-- fabric-object-builder-api-v1 11.0.6+b3afc78b77
+	   |-- fabric-particles-v1 1.0.28+b3afc78b77
+	   |-- fabric-recipe-api-v1 1.0.18+b3afc78b77
+	   |-- fabric-registry-sync-v0 2.2.6+b3afc78b77
+	   |-- fabric-renderer-api-v1 3.1.0+c154966e77
+	   |-- fabric-renderer-indigo 1.4.0+c154966e77
+	   |-- fabric-renderer-registries-v1 3.2.44+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.33+b3afc78b77
+	   |-- fabric-rendering-fluids-v1 3.0.26+b3afc78b77
+	   |-- fabric-rendering-v0 1.1.47+df3654b377
+	   |-- fabric-rendering-v1 3.0.6+b3afc78b77
+	   |-- fabric-resource-conditions-api-v1 2.3.5+ea08f9d877
+	   |-- fabric-resource-loader-v0 0.11.7+f7923f6d77
+	   |-- fabric-screen-api-v1 2.0.6+b3afc78b77
+	   |-- fabric-screen-handler-api-v1 1.3.27+b3afc78b77
+	   |-- fabric-sound-api-v1 1.0.12+b3afc78b77
+	   |-- fabric-transfer-api-v1 3.2.2+b3afc78b77
+	   \-- fabric-transitive-access-wideners-v1 4.2.0+b3afc78b77
 	- fabricloader 0.14.21
 	- java 20
 	- minecraft 1.20.1
-[12:23:56] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/D:/My%20Servers/blastmerderworld/repo/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[12:24:07] [main/ERROR]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
-	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422) ~[?:?]
-	at java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
-	at net.minecraft.class_3808.method_16727(class_3808.java:62) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3806.method_16714(class_3806.java:137) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3807.<init>(class_3807.java:12) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:115) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.21.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.21.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server.jar:0.11.2]
-[12:24:07] [main/WARN]: Failed to load eula.txt
-[12:24:07] [main/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[12:26:37] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/D:/My%20Servers/blastmerderworld/repo/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[12:26:37] [main/INFO]: Compatibility level set to JAVA_16
+[12:26:37] [main/INFO]: Compatibility level set to JAVA_17
+[12:26:50] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:26:51] [main/INFO]: Found new data pack fabric, loading it automatically
+[12:26:53] [main/INFO]: Loaded 7 recipes
+[12:26:53] [main/INFO]: Loaded 1271 advancements
+[12:26:54] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.415 ms
+[12:26:54] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[12:26:54] [Server thread/INFO]: Loading properties
+[12:26:54] [Server thread/INFO]: Default game type: SURVIVAL
+[12:26:54] [Server thread/INFO]: Generating keypair
+[12:26:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:26:54] [Server thread/INFO]: Using default channel type
+[12:26:55] [Server thread/INFO]: Preparing level "world"
+[12:27:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:27:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:27:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:27:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:27:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:27:05] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[12:27:06] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[12:27:06] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[12:27:07] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[12:27:07] [Worker-Main-3/INFO]: Preparing spawn area: 5%
+[12:27:08] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[12:27:08] [Worker-Main-1/INFO]: Preparing spawn area: 7%
+[12:27:09] [Worker-Main-3/INFO]: Preparing spawn area: 9%
+[12:27:09] [Worker-Main-3/INFO]: Preparing spawn area: 9%
+[12:27:10] [Worker-Main-3/INFO]: Preparing spawn area: 11%
+[12:27:10] [Worker-Main-2/INFO]: Preparing spawn area: 13%
+[12:27:11] [Worker-Main-1/INFO]: Preparing spawn area: 14%
+[12:27:11] [Worker-Main-1/INFO]: Preparing spawn area: 15%
+[12:27:12] [Worker-Main-3/INFO]: Preparing spawn area: 17%
+[12:27:12] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[12:27:13] [Worker-Main-1/INFO]: Preparing spawn area: 21%
+[12:27:13] [Worker-Main-3/INFO]: Preparing spawn area: 22%
+[12:27:14] [Worker-Main-1/INFO]: Preparing spawn area: 23%
+[12:27:14] [Worker-Main-3/INFO]: Preparing spawn area: 25%
+[12:27:15] [Worker-Main-2/INFO]: Preparing spawn area: 26%
+[12:27:15] [Worker-Main-3/INFO]: Preparing spawn area: 28%
+[12:27:16] [Worker-Main-2/INFO]: Preparing spawn area: 30%
+[12:27:16] [Worker-Main-3/INFO]: Preparing spawn area: 32%
+[12:27:17] [Worker-Main-2/INFO]: Preparing spawn area: 33%
+[12:27:17] [Worker-Main-3/INFO]: Preparing spawn area: 35%
+[12:27:18] [Worker-Main-1/INFO]: Preparing spawn area: 35%
+[12:27:18] [Worker-Main-1/INFO]: Preparing spawn area: 39%
+[12:27:19] [Worker-Main-1/INFO]: Preparing spawn area: 41%
+[12:27:19] [Worker-Main-3/INFO]: Preparing spawn area: 43%
+[12:27:20] [Worker-Main-2/INFO]: Preparing spawn area: 45%
+[12:27:20] [Worker-Main-1/INFO]: Preparing spawn area: 47%
+[12:27:21] [Worker-Main-2/INFO]: Preparing spawn area: 49%
+[12:27:21] [Worker-Main-1/INFO]: Preparing spawn area: 52%
+[12:27:23] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[12:27:23] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[12:27:23] [Worker-Main-3/INFO]: Preparing spawn area: 54%
+[12:27:23] [Worker-Main-1/INFO]: Preparing spawn area: 56%
+[12:27:24] [Worker-Main-1/INFO]: Preparing spawn area: 58%
+[12:27:24] [Worker-Main-2/INFO]: Preparing spawn area: 59%
+[12:27:25] [Worker-Main-1/INFO]: Preparing spawn area: 62%
+[12:27:25] [Worker-Main-2/INFO]: Preparing spawn area: 65%
+[12:27:26] [Worker-Main-2/INFO]: Preparing spawn area: 67%
+[12:27:26] [Worker-Main-1/INFO]: Preparing spawn area: 69%
+[12:27:27] [Worker-Main-2/INFO]: Preparing spawn area: 71%
+[12:27:27] [Worker-Main-3/INFO]: Preparing spawn area: 72%
+[12:27:28] [Worker-Main-2/INFO]: Preparing spawn area: 76%
+[12:27:28] [Worker-Main-1/INFO]: Preparing spawn area: 77%
+[12:27:29] [Worker-Main-2/INFO]: Preparing spawn area: 81%
+[12:27:29] [Worker-Main-2/INFO]: Preparing spawn area: 84%
+[12:27:30] [Worker-Main-3/INFO]: Preparing spawn area: 86%
+[12:27:30] [Worker-Main-2/INFO]: Preparing spawn area: 88%
+[12:27:31] [Worker-Main-2/INFO]: Preparing spawn area: 90%
+[12:27:31] [Worker-Main-2/INFO]: Preparing spawn area: 93%
+[12:27:32] [Worker-Main-3/INFO]: Preparing spawn area: 96%
+[12:27:32] [Worker-Main-1/INFO]: Preparing spawn area: 99%
+[12:27:32] [Server thread/INFO]: Time elapsed: 29052 ms
+[12:27:32] [Server thread/INFO]: Done (37.566s)! For help, type "help"
+[12:27:54] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[12:27:54] [Server thread/INFO]: a1close<--[HERE]
+[12:27:59] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[12:27:59] [Server thread/INFO]: close<--[HERE]
+[12:28:01] [Server thread/INFO]: Stopping the server
+[12:28:01] [Server thread/INFO]: Stopping server
+[12:28:01] [Server thread/INFO]: Saving players
+[12:28:01] [Server thread/INFO]: Saving worlds
+[12:28:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:28:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12:28:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12:28:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:28:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:28:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:28:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
